@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<h1><%= title %></h1>
+<p>Hi <%= username %>, Welcome to Home!
+    %>
+</p>
+<h1>chain_stats</h1>
+<p>height: <%= stats.height %></p>
+<p>currentBlockHash: <%= stats.currentBlockHash %></p>
+<p>previousBlockHash: <%= stats.previousBlockHash %></p>
+
+<div class="container">
+    <a href="/po_query" class="btn btn-info" role="button">Show PO List</a>
+    <a href="/place_order" class="btn btn-info" role="button">Place Order</a>
+</div>
+
+</body>
+</html>

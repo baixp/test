@@ -1,0 +1,451 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-CA" lang="en-CA">
+
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- <noscript>
+    </noscript> -->
+    <title>IBM Global Financing - Customer Centre Financed items</title>
+    <link href="//1.www.s81c.com/common/v17/css/www.css" rel="stylesheet" title="www" type="text/css"/>
+    <link href="/financing/customercentre/css/screen.css" rel="stylesheet" title="www" type="text/css"/>
+    <!--
+    @(#)html/en_CA/metatags.html, ebccComp2_x, ebcc_rel2_1 1.5
+    ===========================================================================
+
+    metatags.html
+
+    (C) Copyright IBM Corp., 2003.
+
+    ===========================================================================
+    Module Information:
+
+    DESCRIPTION: Customer Centre application.
+    ===========================================================================
+    -->
+    <!-- metaTAG_BEGIN -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="SHORTCUT ICON" href="//www.ibm.com/favicon.ico"/>
+    <meta name="title" content="IBM Customer Centre"/>
+    <meta name="format" content="text/xhtml"/>
+    <meta name="owner" content="Leland Wiesehuegel/San Jose/IBM"/>
+    <meta name="author" content="IBM Global Financing"/>
+    <meta name="keywords" content="IBM, Customer Centre, Leasing, Financing, Invoices, Billing"/>
+    <meta name="ibm.country" content="ca"/>
+    <meta name="dc.language" scheme="rfc1766" content="en-CA"/>
+    <meta name="dc.date" scheme="iso8601" content="2001-12-31"/>
+    <meta name="charset" content="UTF-8"/>
+    <meta name="security" content="public"/>
+    <meta name="copyright" content="Copyright (c) 2000 by IBM Corporation"/>
+    <meta name="documentcountrycode" content="ca"/>
+    <meta name="documentlangagecode" content="en"/>
+    <meta name="robots" content="noindex,nofollow,noarchive"/>
+    <meta name="source" content="v16 Template"/>
+    <meta http-equiv="PICS-Label"
+          content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0) "http://www.classify.org/safesurf/" l gen true r (SS~~000 1))'/>
+    <meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="CT917"/>
+    <meta name="DC.Subject" scheme="IBM_SubjectTaxonomy" content="ZZ999"/>
+    <meta name="DC.Publisher" content="IBM_Corporation"/>
+    <meta name="IBM.Effective" scheme="W3CDTF" content="2001-12-31"/>
+    <meta name="IBM.Industry" scheme="IBM_IndustryTaxonomy" content="ZZ"/>
+    <meta name="DC.Rights" content="© Copyright IBM Corp. 2008"/>
+    <meta content="sid=102" name="IBM.PageAttributes"/>
+    <!-- metaTAG_END -->
+    <meta name="abstract" content="Customer centre Financed items page"/>
+    <meta name="description" content="Customer centre Financed items page"/>
+    <script src="//1.www.s81c.com/common/js/dojo/www.js" type="text/javascript"></script>
+    <script src="/financing/customercentre/js/templateTop.js" language="JavaScript" type="text/javascript">
+    </script>
+
+    <!-- <script src="//www.ibm.com/common/js/overlay.js" type="text/javascript"></script> -->
+    <script language="javascript" type="text/javascript">
+
+        function showStatus(fieldName, forcePopup) {
+            var fieldValue = document.getElementsByName(fieldName)[0].value;
+            var url = 'MainServlet.wss?action=processFinancedItemsReport&popup=' + fieldValue;
+            if (typeof loading == "undefined") {
+                loading = "Loading...";
+            }
+            if (typeof error == "undefined") {
+                error = "A server system error has occurred. Please try again later or contact your IBM Global Financing country contact.";
+            }
+            return openPopupWin(url, 420, 100, false, false, 'LeaseStatus', forcePopup);
+        }
+        //jQuery(document).ready(function(){
+        //  jQuery("#sortHelp").css({ display:"inline", color:"#000" });
+        //});
+    </script>
+
+    <!-- 8 -->
+
+
+</head>
+
+<body id="ibm-com">
+<div id="ibm-top" class="ibm-content-expand ">
+
+    <!-- MASTHEAD_BEGIN -->
+    <div id="ibm-masthead">
+        <div id="ibm-mast-options">
+            <ul>
+                <li id="ibm-geo"><a href="http://www.ibm.com/planetwide/select/selector.html"><span class="ibm-access">Select a country/region: </span>Canada</a>
+                </li>
+                <li id="ibm-language"><span class="ibm-access">Select your language: </span><strong>English<span
+                                class="ibm-access"> - selected language, </span></strong><a
+                            href="http://www.ibm.com/ca/fr/" lang="fr-CA">Français</a></li>
+            </ul>
+        </div>
+        <div id="ibm-universal-nav">
+            <ul id="ibm-unav-links">
+                <li id="ibm-home"><a href="http://www.ibm.com/ca/en/">IBM®</a></li>
+            </ul>
+            <ul id="ibm-menu-links">
+                <li><a href="http://www.ibm.com/sitemap/ca/en/">Site map</a></li>
+            </ul>
+            <div id="ibm-search-module">
+                <form id="ibm-search-form" action="http://www.ibm.com/Search/" method="get">
+                    <p><label for="q"><span class="ibm-access">Search</span></label><input type="text" maxlength="100"
+                                                                                           value="" name="q"
+                                                                                           id="q"/><input type="hidden"
+                                                                                                          value="17"
+                                                                                                          name="v"/><input
+                                type="hidden" value="utf" name="en"/><input type="hidden" value="en" name="lang"/><input
+                                type="hidden" value="ca" name="cc"/><input type="submit" id="ibm-search"
+                                                                           class="ibm-btn-search" value="Submit"/></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- MASTHEAD_END -->
+
+    <div id="ibm-pcon">
+        <!-- CONTENT_BEGIN -->
+        <div id="ibm-content">
+
+            <div id="ibm-leadspace-head" class="ibm-alternate">
+                <div id="ibm-leadspace-body">
+                    <h1>Product Order</h1>
+                    <p><em>Search results</em></p>
+                </div>
+            </div>
+
+
+            <div id="ibm-content-body">
+                <div id="ibm-content-main">
+                    <!-- Show language dropdown if user preferred langauge is not supported by current country -->
+
+                    <form name="formPOsubmit" action="/po_submit" method="post">
+                        <div class="ibm-container ibm-alternate-six">
+                            <div class="ibm-container-body">
+
+
+                                <div class="ibm-table-container">
+                                    <table border="0" cellpadding="0" cellspacing="0"
+                                           class="ibm-data-table ibm-alternating" summary="Equipment report	.">
+                                        <caption><em>PO submit</em></caption>
+                                        <thead>
+                                        <tr valign="top">
+                                            <th width="20" scope="col">&nbsp;</th>
+                                            <th id="c00" width="21" scope="col" class="ibm-no-print">&nbsp;</th>
+                                            <th width="10" scope="col" class="ibm-no-print">&nbsp;</th>
+                                            <th id="c13" class="ibm-sort " scope="col"><a href=""><span>Item</span><span
+                                                            class="ibm-icon"></span></a></th>
+                                            <th id="c14" class="ibm-sort " scope="col"><a
+                                                        href=""><span>Products</span><span class="ibm-icon"></span></a>
+                                            </th>
+                                            <th id="c15" class="ibm-sort " scope="col"><a href=""><span>Qty</span><span
+                                                            class="ibm-icon"></span></a></th>
+                                            <th id="c16" class="ibm-sort " scope="col"><a
+                                                        href=""><span>Financing Amount</span><span
+                                                            class="ibm-icon"></span></a></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr class="">
+                                            <td class="ibm-table-row ibm-alternate" scope="row"><input type="checkbox"
+                                                                                                       name="choose"
+                                                                                                       id="checkbox 0"
+                                                                                                       value="0"
+                                                                                                       title="Select FI 0HIA007 for mass update"/>
+                                            </td>
+                                            <input type="hidden" name="asset0" value="897;985037541-DELM-0HIA007-0"/>
+                                            <td headers="c00" class="ibm-table-row ibm-alternate ibm-no-print"
+                                                width="21" align="center"><a href="/po_summary.html" name="viewDetail"
+                                                                             title="View product details"><img
+                                                            alt="view detail"
+                                                            src="//www.ibm.com/i/v17/buttons/short-btn.gif"
+                                                            style="background: url('//1.www.s81c.com/i/v17/buttons/btn-sprite.png') no-repeat scroll 0 -120px transparent;width:30px;height:30px;margin-bottom: -13px;margin-top:-5px;"></a>
+                                            </td>
+                                            <td class="ibm-table-row ibm-alternate ibm-no-print">&nbsp;</td>
+                                            <td headers="c13" class="ibm-table-row ibm-alternate">1</td>
+                                            <td headers="c14" class="ibm-table-row ibm-alternate">Macbook</td>
+                                            <td headers="c15" class="ibm-table-row ibm-alternate">1</td>
+                                            <td headers="c16" class="ibm-table-row ibm-alternate"><input type="text"
+                                                                                                         maxlength="100"
+                                                                                                         value=""
+                                                                                                         name="po_amount_01"
+                                                                                                         id="po_amount_01"/>
+                                            </td>
+                                        </tr>
+                                        <tr class="ibm-alt-row">
+                                            <td class="ibm-table-row ibm-alternate" scope="row"><input type="checkbox"
+                                                                                                       name="choose"
+                                                                                                       id="checkbox 1"
+                                                                                                       value="1"
+                                                                                                       title="Select FI 0HIA008 for mass update"/>
+                                            </td>
+                                            <input type="hidden" name="asset1" value="897;985037541-DELM-0HIA008-0"/>
+                                            <td headers="c00" class="ibm-table-row ibm-alternate ibm-no-print"
+                                                width="21" align="center"><a href="/po_summary.html" name="viewDetail"
+                                                                             title="View product details"><img
+                                                            alt="view detail"
+                                                            src="//www.ibm.com/i/v17/buttons/short-btn.gif"
+                                                            style="background: url('//1.www.s81c.com/i/v17/buttons/btn-sprite.png') no-repeat scroll 0 -120px transparent;width:30px;height:30px;margin-bottom: -13px;margin-top:-5px;"></a>
+                                            </td>
+                                            <td class="ibm-table-row ibm-alternate ibm-no-print">&nbsp;</td>
+                                            <td headers="c13" class="ibm-table-row ibm-alternate">2</td>
+                                            <td headers="c14" class="ibm-table-row ibm-alternate">Thinkpad</td>
+                                            <td headers="c15" class="ibm-table-row ibm-alternate">1</td>
+                                            <td headers="c16" class="ibm-table-row ibm-alternate"><input type="text"
+                                                                                                         maxlength="100"
+                                                                                                         value=""
+                                                                                                         name="po_amount_02"
+                                                                                                         id="po_amount_02"/>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="ibm-table-row ibm-alternate" scope="row"><input type="checkbox"
+                                                                                                       name="choose"
+                                                                                                       id="checkbox 2"
+                                                                                                       value="2"
+                                                                                                       title="Select FI 0HIA010 for mass update"/>
+                                            </td>
+                                            <input type="hidden" name="asset2" value="897;985037541-DELM-0HIA010-0"/>
+                                            <td headers="c00" class="ibm-table-row ibm-alternate ibm-no-print"
+                                                width="21" align="center"><a href="/po_summary.html" name="viewDetail"
+                                                                             title="View product details"><img
+                                                            alt="view detail"
+                                                            src="//www.ibm.com/i/v17/buttons/short-btn.gif"
+                                                            style="background: url('//1.www.s81c.com/i/v17/buttons/btn-sprite.png') no-repeat scroll 0 -120px transparent;width:30px;height:30px;margin-bottom: -13px;margin-top:-5px;"></a>
+                                            </td>
+                                            <td class="ibm-table-row ibm-alternate ibm-no-print">&nbsp;</td>
+                                            <td headers="c13" class="ibm-table-row ibm-alternate">3</td>
+                                            <td headers="c14" class="ibm-table-row ibm-alternate">DELL 19&quot; FLAT
+                                                PANEL MONITOR
+                                            </td>
+                                            <td headers="c15" class="ibm-table-row ibm-alternate">1</td>
+                                            <td headers="c16" class="ibm-table-row ibm-alternate"><input type="text"
+                                                                                                         maxlength="100"
+                                                                                                         value=""
+                                                                                                         name="po_amount_03"
+                                                                                                         id="po_amount_03"/>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div><!-- /ibm-table-container -->
+
+                                <div class="ibm-alternate-rule ibm-no-print">
+                                    <hr/>
+                                </div>
+                                <div class="ibm-container-body ibm-two-column ibm-no-print">
+                                    <div class="ibm-column ibm-first">
+                                        <input id="po_for_supplier_submit" type="submit" title="PO for Supplier"
+                                               alt="PO for Supplier" value="PO for Supplier"
+                                               class="ibm-btn-arrow-sec" name="printFriendly">
+                                    </div><!-- /ibm-column ibm-first -->
+                                    <div class="ibm-column ibm-second">
+                                    </div><!-- /ibm-column ibm-second -->
+                                </div><!-- /ibm-container-body ibm-two-column -->
+
+                            </div><!-- /ibm-container-body -->
+                        </div><!-- /ibm-container ibm-alternate-six -->
+                    </form>
+                    <div class="ibm-common-overlay" id="LeaseStatus">
+                        <div class="ibm-head">
+                            <p><a class="ibm-common-overlay-close" href="#close">Close [x]</a></p>
+                        </div>
+                        <div class="ibm-body">
+                            <div class="ibm-main">
+                                <a class="ibm-access" id="Accessibility"><!-- Accessibility anchor --></a>
+                                <div class="ibm-title">
+                                    <h1></h1>
+                                </div>
+                                <div id="statusContent">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ibm-footer"></div>
+                    </div>
+                </div><!-- /ibm-content-main -->
+                <!-- CONTENT_BODY_END -->
+            </div><!-- /ibm-content-body -->
+        </div><!-- /ibm-content -->
+        <!-- CONTENT_END -->
+
+
+        <!-- NAVIGATION_BEGIN -->
+        <div id="ibm-navigation" class="ibm-parent">
+            <h2 class="ibm-access">Content navigation</h2>
+
+            <ul id="ibm-primary-links">
+                <li id="ibm-parent-link"></li>
+
+                <!-- IGF Customer Centre -->
+
+                <li id="ibm-overview"><a href="/financing/customercentre/MainServlet.wss?action=showHome">Home</a></li>
+
+
+                <!-- Favorites -->
+                <li><a href="/po_main">Product Order</a></li>
+
+                <!-- Actions -->
+                <li><a href="/po_summary">PO To Supplier Summary</a></li>
+
+                <!-- Help -->
+                <li><a href="/">Help</a></li>
+
+            </ul>
+            <!-- /ibm-secondary-navigation -->
+        </div><!-- /ibm-navigation -->
+
+
+        <!-- NAVIGATION_END -->
+        <script type="text/javascript">
+            <!--
+            var className = "ibm-active";
+            dojo.addOnLoad(function () {
+                //var nav = dojo.byId("ibm-navigation");
+                var activeNodes = dojo.query("#ibm-navigation .ibm-active");
+                if (activeNodes.length == 0) {
+                    var overview = dojo.byId("ibm-overview");
+                    if (!checkNodeValid(overview, "li")) {
+                        return;
+                    }
+                    if (!dojo.hasClass(overview, className)) {
+                        dojo.addClass(overview, className);
+                    }
+                    var childNode = overview.firstChild;
+                    if (checkNodeValid(childNode, "a")) {
+                        if (!dojo.hasClass(childNode, className)) {
+                            dojo.addClass(childNode, className);
+                        }
+                    }
+                }
+                activeNodes.forEach(function (node, index, nodeList) {
+                    if (node.tagName.toLowerCase() == "a") {
+                        parentLINode = node.parentNode;
+                        if (checkNodeValid(parentLINode, "li")) {
+                            if (!dojo.hasClass(parentLINode, className)) {
+                                dojo.addClass(parentLINode, className);
+                            }
+                        }
+                    } else if (nodeList.length == 1 && node.tagName.toLowerCase() == "li") {//nodeList.length == 1
+                        var childNode = node.firstChild;
+                        if (checkNodeValid(childNode, "a")) {
+                            if (!dojo.hasClass(childNode, className)) {
+                                dojo.addClass(childNode, className);
+                            }
+                        }
+                    }
+                    setParentLinkActive(node);
+                });
+
+
+                //reduce the height of ul
+                activeNodes = dojo.query("#ibm-navigation .ibm-active");
+                activeNodes.forEach(function (node, index, nodeList) {
+                    var node = getULChildren(node);
+                    if (node) {
+                        var children = node.childNodes;
+                        var height = 0;
+                        for (var i = 0; i < children.length; i++) {
+                            if (checkNodeValid(children[i], "li")) {
+                                height += getHeight(children[i]);
+                            }
+                        }
+                        node.style.height = height + "px";
+                    }
+                })
+            });
+
+            function getHeight(node) {
+                var height = node.clientHeight;
+                if (typeof(height) == "string") {
+                    var h = height.replace("px", "");
+                    return parseInt(h);
+                }
+                return height;
+            }
+
+            function getULChildren(node) {
+                var children = node.childNodes;
+                if (children) {
+                    for (var i = 0; i < children.length; i++) {
+                        if (checkNodeValid(children[i], "ul")) {
+                            return children[i];
+                        }
+                    }
+                }
+                return false;
+            }
+
+            function setParentLinkActive(node) {
+                // get parent node
+                // a - li - ui;
+                var parentULNode = node.parentNode.parentNode;
+                if (!checkNodeValid(parentULNode, "ul")) {
+                    return;
+                }
+                var parentLINode = parentULNode.parentNode;
+                /* if(!checkNodeValid(parentLINode, "li")){
+                 return;
+                 } */
+                //var parentANode = parentLINode.firstChild;
+                if (checkNodeValid(parentLINode, "li")) {
+                    if (!dojo.hasClass(parentLINode, className)) {
+                        dojo.addClass(parentLINode, className);
+                    }
+                    setParentLinkActive(parentLINode);
+                }
+            }
+
+            function checkNodeValid(node, tagName) {
+                if (node == null || typeof(node) == "undefined" || !node.tagName || node.tagName.toLowerCase() != tagName) {
+                    return false;
+                } else {
+                    return true;
+                }
+            }
+            //-->
+        </script>
+
+
+    </div><!-- /ibm-pcon -->
+    <div id="ibm-related-content"></div><!-- FOOTER_BEGIN -->
+    <div id="ibm-footer-module"></div>
+    <div id="ibm-footer">
+        <h2 class="ibm-access">Footer links</h2>
+        <ul>
+            <li><a href="http://www.ibm.com/contact/ca/en/">Contact</a></li>
+            <li><a href="http://www.ibm.com/privacy/ca/en/">Privacy</a></li>
+            <li><a href="http://www.ibm.com/legal/ca/en/">Terms of use</a></li>
+        </ul>
+    </div>
+    <!-- FOOTER_END -->
+
+
+</div><!-- /ibm-top -->
+<!-- surfaid tag -->
+<div id="ibm-metrics">
+    <script type="text/javascript" src="//www.ibm.com/common/stats/stats.js"></script>
+</div>
+<!-- end surfaid tag -->
+</body>
+
+</html>
+
+
+
